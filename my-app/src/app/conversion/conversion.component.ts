@@ -9,8 +9,8 @@ import { Devise } from '../common/data/devise';
 })
 export class ConversionComponent implements OnInit {
   montant : number;
-  codeMonnaieSource : string;
-  codeMonnaieCible : string;
+  codeMonnaieSource : string = "EUR";
+  codeMonnaieCible : string = "USD";
   resultat : number;
   listeDevises : Devise[]; //ou bien : Array<Devise> ;
 

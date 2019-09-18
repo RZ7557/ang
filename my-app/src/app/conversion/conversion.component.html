@@ -11,3 +11,11 @@ montant: <input type="text" [(ngModel)]="montant" /><br/>
 <input type="button" (click)="calculerConversion()" value="convertir" /><br/>
 
 resultat= {{resultat}}
+<hr/>
+
+<table border="1">
+    <tr><th>code</th><th>monnaie</th><th>change</th></tr>
+    <tr *ngFor="let d of listeDevises">
+        <td>{{d.code}}</td><td>{{d.name}}</td><td>{{d.change}}</td>
+    </tr>
+</table>
