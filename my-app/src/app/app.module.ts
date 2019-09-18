@@ -15,6 +15,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TvaComponent } from './tva/tva.component'; 
 import { BsUtilModule } from 'src/bs-util/bs-util.module';
+import { ConversionComponent } from './conversion/conversion.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BsUtilModule } from 'src/bs-util/bs-util.module';
     CalculComponent,
     LoginComponent,
     WelcomeComponent,
-    TvaComponent
+    TvaComponent,
+    ConversionComponent
   ],
   imports: [
     BrowserModule,
