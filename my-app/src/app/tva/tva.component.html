@@ -1,0 +1,9 @@
+ht:<input type="text" [(ngModel)]="ht" (input)="calculer()" /> <br/>
+taux:<select [(ngModel)]="taux" (change)="calculer()">
+    <option>5</option>
+    <option>10</option>
+    <option>20</option>
+</select> <br/>
+tva = {{tva  | number:'1.0-2' }}<br/>
+ttc = {{ttc  | number:'1.0-2' }}
+
